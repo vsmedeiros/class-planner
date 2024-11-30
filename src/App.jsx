@@ -71,7 +71,6 @@ function App() {
     const course = classData.find((course) => course.code === courseCode);
     return course ? course.color : "white";
   }
-  console.log(schedule);
   return (
     <>
       <h1>CLASS PLANNER</h1>
