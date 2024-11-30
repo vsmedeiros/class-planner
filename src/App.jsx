@@ -14,22 +14,11 @@ function App() {
     const [start1, end1] = time1.split(" - ").map(timeToMinutes);
     const [start2, end2] = time2.split(" - ").map(timeToMinutes);
 
-    return start1 >= start2 && end1 <= end2;
+    return start1 < end2 && start2 < end1;
   }
 
-  const handleSelectionChange = (selectedDay, selectedTime, value) => {
+  const handleSelectionChange = (value) => {
     if (!value) return;
-    console.log(`${selectedDay}-${selectedTime}`);
-    const classWithConflict = getScheduleValue(
-      `${selectedDay}-${selectedTime}`
-    );
-    if (classWithConflict) {
-      for (const key of Object.keys(schedule)) {
-        if (schedule[key] === classWithConflict) {
-          delete schedule[key];
-        }
-      }
-    }
     const [code, className] = value.split("-");
 
     const selectedClass = classData.find(
@@ -40,6 +29,14 @@ function App() {
       const updatedSchedule = { ...schedule };
 
       selectedClass.schedules.forEach(({ day, time }) => {
+        const classWithConflict = getScheduleValue(`${day}-${time}`);
+        if (classWithConflict) {
+          for (const key of Object.keys(schedule)) {
+            if (schedule[key] === classWithConflict) {
+              delete updatedSchedule[key];
+            }
+          }
+        }
         updatedSchedule[`${day}-${time}`] = `${code}-${className}`;
       });
 
@@ -132,9 +129,7 @@ function App() {
                       <select
                         style={{ backgroundColor: classColor }}
                         value={selectedClassValue}
-                        onChange={(e) =>
-                          handleSelectionChange(day, hour, e.target.value)
-                        }
+                        onChange={(e) => handleSelectionChange(e.target.value)}
                       >
                         <option value="" style={{ backgroundColor: "white" }}>
                           Selecione a matéria
