@@ -67,10 +67,13 @@ function App() {
 
     return "";
   }
-  function getClassColor(courseCode) {
-    const course = classData.find((course) => course.code === courseCode);
-    return course ? course.color : "white";
+  function getClass(courseCode, classCode) {
+    const course = classData.find(
+      (course) => course.code === courseCode && course.class === classCode
+    );
+    return course;
   }
+  const scheduleCodes = new Set(Object.values(schedule));
   return (
     <>
       <h1>CLASS PLANNER</h1>
@@ -107,9 +110,11 @@ function App() {
                   "Saturday",
                 ].map((day) => {
                   const selectedClassValue = getScheduleValue(`${day}-${hour}`);
-                  const classColor = getClassColor(
-                    selectedClassValue.split("-")[0]
-                  );
+                  const classColor =
+                    getClass(
+                      selectedClassValue.split("-")[0],
+                      selectedClassValue.split("-")[1]
+                    )?.color || "white";
                   return (
                     <td
                       key={`${day}-${hour}`}
@@ -151,6 +156,39 @@ function App() {
             ))}
           </tbody>
         </table>
+        {Object.keys(schedule).length > 0 && (
+          <div className="schedule">
+            <h2>SCHEDULE</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>CODE/CLASS</th>
+                  <th>COURSE</th>
+                  <th>TEACHER</th>
+                  <th>DAY/TIME</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...scheduleCodes].map((code) => {
+                  const [courseCode, classCode] = code.split("-");
+                  const currentCourse = getClass(courseCode, classCode);
+                  return (
+                    <tr key={code}>
+                      <td>{code}</td>
+                      <td>{currentCourse.course}</td>
+                      <td>{currentCourse.teacher}</td>
+                      <td>
+                        {currentCourse.schedules
+                          .map(({ day, time }) => `${day} - ${time}`)
+                          .join(", ")}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
       </div>
     </>
   );
