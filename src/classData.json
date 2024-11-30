@@ -4,7 +4,7 @@
     "course": "Contabilidade e Análise de Demonstrativos Financeiros",
     "prerequisite": "",
     "class": "S",
-    "color": "#ff5733",
+    "color": "#FF5733",
     "schedules": [
       {
         "day": "Monday",
@@ -19,7 +19,7 @@
     "course": "Introdução aos Sistemas de Informação",
     "prerequisite": "",
     "class": "S",
-    "color": "#33ff57",
+    "color": "#33FF57",
     "schedules": [
       {
         "day": "Wednesday",
@@ -34,7 +34,7 @@
     "course": "Introdução aos Sistemas de Informação",
     "prerequisite": "",
     "class": "EX",
-    "color": "#5733ff",
+    "color": "#3357FF",
     "schedules": [
       {
         "day": "Wednesday",
@@ -49,7 +49,7 @@
     "course": "Informática e Sociedade",
     "prerequisite": "",
     "class": "S",
-    "color": "#ff33a1",
+    "color": "#FF33A1",
     "schedules": [
       {
         "day": "Wednesday",
@@ -64,7 +64,7 @@
     "course": "Informática e Sociedade",
     "prerequisite": "",
     "class": "EX",
-    "color": "#33a1ff",
+    "color": "#A1FF33",
     "schedules": [
       {
         "day": "Friday",
@@ -79,7 +79,7 @@
     "course": "Algoritmos e Programação I",
     "prerequisite": "",
     "class": "S",
-    "color": "#a1ff33",
+    "color": "#33A1FF",
     "schedules": [
       {
         "day": "Tuesday",
@@ -98,7 +98,7 @@
     "course": "Algoritmos e Programação I",
     "prerequisite": "",
     "class": "EXA",
-    "color": "#ff33a1",
+    "color": "#A133FF",
     "schedules": [
       {
         "day": "Tuesday",
@@ -117,7 +117,7 @@
     "course": "Algoritmos e Programação I",
     "prerequisite": "",
     "class": "EXB",
-    "color": "#a133ff",
+    "color": "#FFF3A1",
     "schedules": [
       {
         "day": "Tuesday",
@@ -136,7 +136,7 @@
     "course": "Lógica para Computação",
     "prerequisite": "",
     "class": "S",
-    "color": "#ff5733",
+    "color": "#FF7133",
     "schedules": [
       {
         "day": "Tuesday",
@@ -155,7 +155,7 @@
     "course": "Lógica para Computação",
     "prerequisite": "",
     "class": "EX",
-    "color": "#33ff57",
+    "color": "#57FF33",
     "schedules": [
       {
         "day": "Tuesday",
@@ -174,7 +174,7 @@
     "course": "Fundamentos de Marketing",
     "prerequisite": "",
     "class": "S",
-    "color": "#5733ff",
+    "color": "#7133FF",
     "schedules": [
       {
         "day": "Tuesday",
@@ -193,7 +193,7 @@
     "course": "Algoritmos e Programação II",
     "prerequisite": "FACOM32102-AP1",
     "class": "S",
-    "color": "#ff33a1",
+    "color": "#FFA133",
     "schedules": [
       {
         "day": "Tuesday",
@@ -212,7 +212,7 @@
     "course": "Algoritmos e Programação II",
     "prerequisite": "FACOM32102-AP1",
     "class": "EX",
-    "color": "#33a1ff",
+    "color": "#33FFA1",
     "schedules": [
       {
         "day": "Tuesday",
@@ -231,7 +231,7 @@
     "course": "Cálculo I",
     "prerequisite": "",
     "class": "S",
-    "color": "#a1ff33",
+    "color": "#5733FF",
     "schedules": [
       {
         "day": "Monday",
@@ -254,7 +254,7 @@
     "course": "Gestão Empresarial",
     "prerequisite": "",
     "class": "S",
-    "color": "#ff33a1",
+    "color": "#A1FFA1",
     "schedules": [
       {
         "day": "Monday",
@@ -273,7 +273,7 @@
     "course": "Arquitetura e Organização de Computadores",
     "prerequisite": "FACOM32105-LC",
     "class": "S",
-    "color": "#a133ff",
+    "color": "#A1A1FF",
     "schedules": [
       {
         "day": "Tuesday",
@@ -292,7 +292,7 @@
     "course": "Arquitetura e Organização de Computadores",
     "prerequisite": "FACOM32105-LC",
     "class": "EX",
-    "color": "#ff5733",
+    "color": "#FF573A",
     "schedules": [
       {
         "day": "Tuesday",
@@ -311,7 +311,7 @@
     "course": "Estrutura de Dados I",
     "prerequisite": "FACOM32201-AP2",
     "class": "S",
-    "color": "#ff5733",
+    "color": "#33FFF7",
     "schedules": [
       {
         "day": "Tuesday",
@@ -330,7 +330,7 @@
     "course": "Estrutura de Dados I",
     "prerequisite": "FACOM32201-AP2",
     "class": "EX",
-    "color": "#33ff57",
+    "color": "#5733A1",
     "schedules": [
       {
         "day": "Tuesday",
@@ -349,7 +349,7 @@
     "course": "Álgebra Linear",
     "prerequisite": "FAMAT39214-C1",
     "class": "S",
-    "color": "#5733ff",
+    "color": "#A1FF57",
     "schedules": [
       {
         "day": "Monday",
@@ -364,7 +364,7 @@
     "course": "Empreendedorismo",
     "prerequisite": "S",
     "class": "S",
-    "color": "#a1ff33",
+    "color": "#33A1A1",
     "schedules": [
       {
         "day": "Wednesday",
@@ -383,7 +383,7 @@
     "course": "Programação Orientada a Objetos",
     "prerequisite": "FACOM32201-AP2",
     "class": "S",
-    "color": "#ff33a1",
+    "color": "#FF57A1",
     "schedules": [
       {
         "day": "Wednesday",
@@ -402,7 +402,7 @@
     "course": "Programação Orientada a Objetos",
     "prerequisite": "FACOM32201-AP2",
     "class": "EX",
-    "color": "#33a1ff",
+    "color": "#FFAA33",
     "schedules": [
       {
         "day": "Wednesday",
@@ -421,7 +421,7 @@
     "course": "ACE - Informática e Sociedade",
     "prerequisite": "",
     "class": "S",
-    "color": "#a133ff",
+    "color": "#A1AAFF",
     "schedules": [
       {
         "day": "Saturday",
@@ -436,7 +436,7 @@
     "course": "Sistemas Operacionais",
     "prerequisite": "FACOM32303-AOC, FACOM32302-ED1",
     "class": "S",
-    "color": "#ff5733",
+    "color": "#33FF33",
     "schedules": [
       {
         "day": "Tuesday",
@@ -455,7 +455,7 @@
     "course": "Sistemas Operacionais",
     "prerequisite": "FACOM32303-AOC, FACOM32302-ED1",
     "class": "EX",
-    "color": "#33ff57",
+    "color": "#57A1FF",
     "schedules": [
       {
         "day": "Monday",
@@ -474,7 +474,7 @@
     "course": "Estrutura de Dados II",
     "prerequisite": "FACOM32302-ED1",
     "class": "S",
-    "color": "#5733ff",
+    "color": "#FFF733",
     "schedules": [
       {
         "day": "Tuesday",
@@ -493,7 +493,7 @@
     "course": "Estrutura de Dados II",
     "prerequisite": "FACOM32302-ED1",
     "class": "EX",
-    "color": "#a1ff33",
+    "color": "#A133A1",
     "schedules": [
       {
         "day": "Tuesday",
@@ -512,7 +512,7 @@
     "course": "Banco de dados I",
     "prerequisite": "FACOM32201-AP2",
     "class": "S",
-    "color": "#ff33a1",
+    "color": "#FF3371",
     "schedules": [
       {
         "day": "Monday",
@@ -531,7 +531,7 @@
     "course": "Banco de dados I",
     "prerequisite": "FACOM32201-AP2",
     "class": "EX",
-    "color": "#33a1ff",
+    "color": "#33A157",
     "schedules": [
       {
         "day": "Monday",
@@ -550,7 +550,7 @@
     "course": "Matemática para Ciência da Computação",
     "prerequisite": "",
     "class": "S",
-    "color": "#a133ff",
+    "color": "#FF5733",
     "schedules": [
       {
         "day": "Monday",
@@ -569,7 +569,7 @@
     "course": "Processo de Desenvolvimento de Software",
     "prerequisite": "FACOM32305-POO",
     "class": "S",
-    "color": "#ff5733",
+    "color": "#33FF57",
     "schedules": [
       {
         "day": "Wednesday",
@@ -588,7 +588,7 @@
     "course": "Banco de Dados II",
     "prerequisite": "FACOM32401-BD1, FACOM32402-ED2",
     "class": "S",
-    "color": "#33ff57",
+    "color": "#3357FF",
     "schedules": [
       {
         "day": "Monday",
@@ -607,7 +607,7 @@
     "course": "Gestão da Qualidade de Software",
     "prerequisite": "FACOM32305-PDS",
     "class": "S",
-    "color": "#5733ff",
+    "color": "#FF33A1",
     "schedules": [
       {
         "day": "Tuesday",
@@ -626,7 +626,7 @@
     "course": "Programação para Dispositivos Móveis",
     "prerequisite": "FACOM32305-POO",
     "class": "S",
-    "color": "#a1ff33",
+    "color": "#A1FF33",
     "schedules": [
       {
         "day": "Monday",
@@ -645,7 +645,7 @@
     "course": "Redes de Computadores",
     "prerequisite": "FACOM32404-SO",
     "class": "S",
-    "color": "#ff33a1",
+    "color": "#33A1FF",
     "schedules": [
       {
         "day": "Tuesday",
@@ -664,7 +664,7 @@
     "course": "Estatística",
     "prerequisite": "FAMAT31022-AL",
     "class": "S",
-    "color": "#33a1ff",
+    "color": "#A133FF",
     "schedules": [
       {
         "day": "Wednesday",
@@ -683,7 +683,7 @@
     "course": "ACE - Popularização de Ciência e Tecnologia",
     "prerequisite": "",
     "class": "S",
-    "color": "#a133ff",
+    "color": "#FFF3A1",
     "schedules": [
       {
         "day": "Saturday",
