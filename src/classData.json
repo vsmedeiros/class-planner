@@ -1,0 +1,696 @@
+[
+  {
+    "code": "FACIC39102",
+    "course": "Contabilidade e Análise de Demonstrativos Financeiros",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#FF5733",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "19:00 - 22:30"
+      }
+    ],
+    "teacher": "Gilvania de Sousa Gomes",
+    "email": "gilvaniasg@ufu.br"
+  },
+  {
+    "code": "FACOM32104",
+    "course": "Introdução aos Sistemas de Informação",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#33FF57",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Christiane Regina Soares Brasil",
+    "email": "christiane@ufu.br"
+  },
+  {
+    "code": "FACOM32104",
+    "course": "Introdução aos Sistemas de Informação",
+    "prerequisite": "",
+    "class": "EX",
+    "color": "#3357FF",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Renata dos Santos Melo",
+    "email": "renatasm@ufu.br"
+  },
+  {
+    "code": "FACOM32101",
+    "course": "Informática e Sociedade",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#FF33A1",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "João Henrique de Souza Pereira",
+    "email": "joaohs@ufu.br"
+  },
+  {
+    "code": "FACOM32101",
+    "course": "Informática e Sociedade",
+    "prerequisite": "",
+    "class": "EX",
+    "color": "#A1FF33",
+    "schedules": [
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Christiane Regina Soares Brasil",
+    "email": "christiane@ufu.br"
+  },
+  {
+    "code": "FACOM32102",
+    "course": "Algoritmos e Programação I",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#33A1FF",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "João Henrique de Souza Pereira",
+    "email": "joaohs@ufu.br"
+  },
+  {
+    "code": "FACOM32102",
+    "course": "Algoritmos e Programação I",
+    "prerequisite": "",
+    "class": "EXA",
+    "color": "#A133FF",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Ana Cláudia Martinez",
+    "email": "anacmartinez@ufu.br"
+  },
+  {
+    "code": "FACOM32102",
+    "course": "Algoritmos e Programação I",
+    "prerequisite": "",
+    "class": "EXB",
+    "color": "#FFF3A1",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Ana Cláudia Martinez",
+    "email": "anacmartinez@ufu.br"
+  },
+  {
+    "code": "FACOM32105",
+    "course": "Lógica para Computação",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#FF7133",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Renato Aparecido Pimentel da Silva",
+    "email": "rpimentel@ufu.br"
+  },
+  {
+    "code": "FACOM32105",
+    "course": "Lógica para Computação",
+    "prerequisite": "",
+    "class": "EX",
+    "color": "#57FF33",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Wednesday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Adriano Barbosa Silva",
+    "email": "adriano.barbosa@ufu.br"
+  },
+  {
+    "code": "FAGEN31102",
+    "course": "Fundamentos de Marketing",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#7133FF",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Wednesday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Raul de Freitas Balbino",
+    "email": "adm.raul@ufu.br"
+  },
+  {
+    "code": "FACOM32201",
+    "course": "Algoritmos e Programação II",
+    "prerequisite": "FACOM32102-AP1",
+    "class": "S",
+    "color": "#FFA133",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Giullia Rodrigues de Menezes",
+    "email": "giullia.rodrigues@ufu.br"
+  },
+  {
+    "code": "FACOM32201",
+    "course": "Algoritmos e Programação II",
+    "prerequisite": "FACOM32102-AP1",
+    "class": "EX",
+    "color": "#33FFA1",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Thiago Pirola Ribeiro",
+    "email": "tpribeiro@ufu.br"
+  },
+  {
+    "code": "FAMAT39214",
+    "course": "Cálculo I",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#5733FF",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Eduard Rojas Castillo",
+    "email": "eduardorc@ufu.br"
+  },
+  {
+    "code": "FAGEN39531",
+    "course": "Gestão Empresarial",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#A1FFA1",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Eduardo De Carli",
+    "email": "edc@ufu.br"
+  },
+  {
+    "code": "FACOM32303",
+    "course": "Arquitetura e Organização de Computadores",
+    "prerequisite": "FACOM32105-LC",
+    "class": "S",
+    "color": "#A1A1FF",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Maria Luiza Freitas Oliveira",
+    "email": "mlfreitas@ufu.br"
+  },
+  {
+    "code": "FACOM32303",
+    "course": "Arquitetura e Organização de Computadores",
+    "prerequisite": "FACOM32105-LC",
+    "class": "EX",
+    "color": "#FF573A",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Thiago Pirola Ribeiro",
+    "email": "tpribeiro@ufu.br"
+  },
+  {
+    "code": "FACOM32302",
+    "course": "Estrutura de Dados I",
+    "prerequisite": "FACOM32201-AP2",
+    "class": "S",
+    "color": "#33FFF7",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Raul de Freitas Balbino",
+    "email": "adm.raul@ufu.br"
+  },
+  {
+    "code": "FACOM32302",
+    "course": "Estrutura de Dados I",
+    "prerequisite": "FACOM32201-AP2",
+    "class": "EX",
+    "color": "#5733A1",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Giullia Rodrigues de Menezes",
+    "email": "giullia.rodrigues@ufu.br"
+  },
+  {
+    "code": "FAMAT31022",
+    "course": "Álgebra Linear",
+    "prerequisite": "FAMAT39214-C1",
+    "class": "S",
+    "color": "#A1FF57",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "19:00 - 21:40"
+      }
+    ],
+    "teacher": "Eduardo Rojas Castillo",
+    "email": "eduardorc@ufu.br"
+  },
+  {
+    "code": "FAGEN39050",
+    "course": "Empreendedorismo",
+    "prerequisite": "S",
+    "class": "S",
+    "color": "#33A1A1",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Eduardo De Carli",
+    "email": "edc@ufu.br"
+  },
+  {
+    "code": "FACOM32305",
+    "course": "Programação Orientada a Objetos",
+    "prerequisite": "FACOM32201-AP2",
+    "class": "S",
+    "color": "#FF57A1",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Friday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Ana Carolina Almeida",
+    "email": "ana.carolina@ufu.br"
+  },
+  {
+    "code": "FACOM32305",
+    "course": "Programação Orientada a Objetos",
+    "prerequisite": "FACOM32201-AP2",
+    "class": "EX",
+    "color": "#FFAA33",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Thiago Pirola Ribeiro",
+    "email": "tpribeiro@ufu.br"
+  },
+  {
+    "code": "FACOM32301",
+    "course": "ACE - Informática e Sociedade",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#A1AAFF",
+    "schedules": [
+      {
+        "day": "Saturday",
+        "time": "14:00 - 15:40"
+      }
+    ],
+    "teacher": "Roberta Silveira",
+    "email": "roberta.silveira@ufu.br"
+  },
+  {
+    "code": "FACOM32404",
+    "course": "Sistemas Operacionais",
+    "prerequisite": "FACOM32303-AOC, FACOM32302-ED1",
+    "class": "S",
+    "color": "#33FF33",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "José Oliveira",
+    "email": "jose.oliveira@ufu.br"
+  },
+  {
+    "code": "FACOM32404",
+    "course": "Sistemas Operacionais",
+    "prerequisite": "FACOM32303-AOC, FACOM32302-ED1",
+    "class": "EX",
+    "color": "#57A1FF",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Rita Silva",
+    "email": "rita.silva@ufu.br"
+  },
+  {
+    "code": "FACOM32402",
+    "course": "Estrutura de Dados II",
+    "prerequisite": "FACOM32302-ED1",
+    "class": "S",
+    "color": "#FFF733",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Carlos Gomes",
+    "email": "carlos.gomes@ufu.br"
+  },
+  {
+    "code": "FACOM32402",
+    "course": "Estrutura de Dados II",
+    "prerequisite": "FACOM32302-ED1",
+    "class": "EX",
+    "color": "#A133A1",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Maria Helena Costa",
+    "email": "maria.costa@ufu.br"
+  },
+  {
+    "code": "FACOM32401",
+    "course": "Banco de dados I",
+    "prerequisite": "FACOM32201-AP2",
+    "class": "S",
+    "color": "#FF3371",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Lucas Pereira",
+    "email": "lucas.pereira@ufu.br"
+  },
+  {
+    "code": "FACOM32401",
+    "course": "Banco de dados I",
+    "prerequisite": "FACOM32201-AP2",
+    "class": "EX",
+    "color": "#33A157",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Fernanda Machado",
+    "email": "fernanda.machado@ufu.br"
+  },
+  {
+    "code": "FAMAT32401",
+    "course": "Matemática para Ciência da Computação",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#FF5733",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Patrícia Duarte",
+    "email": "patricia.duarte@ufu.br"
+  },
+  {
+    "code": "FACOM32403",
+    "course": "Processo de Desenvolvimento de Software",
+    "prerequisite": "FACOM32305-POO",
+    "class": "S",
+    "color": "#33FF57",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Friday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Marcos Lemos",
+    "email": "marcos.lemos@ufu.br"
+  },
+  {
+    "code": "FACOM32304",
+    "course": "Banco de Dados II",
+    "prerequisite": "FACOM32401-BD1, FACOM32402-ED2",
+    "class": "S",
+    "color": "#3357FF",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Wednesday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Gustavo Martins",
+    "email": "gustavo.martins@ufu.br"
+  },
+  {
+    "code": "FACOM32502",
+    "course": "Gestão da Qualidade de Software",
+    "prerequisite": "FACOM32305-PDS",
+    "class": "S",
+    "color": "#FF33A1",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Thursday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Helena Souza",
+    "email": "helena.souza@ufu.br"
+  },
+  {
+    "code": "FACOM32503",
+    "course": "Programação para Dispositivos Móveis",
+    "prerequisite": "FACOM32305-POO",
+    "class": "S",
+    "color": "#A1FF33",
+    "schedules": [
+      {
+        "day": "Monday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Thursday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Juliana Lima",
+    "email": "juliana.lima@ufu.br"
+  },
+  {
+    "code": "FACOM32504",
+    "course": "Redes de Computadores",
+    "prerequisite": "FACOM32404-SO",
+    "class": "S",
+    "color": "#33A1FF",
+    "schedules": [
+      {
+        "day": "Tuesday",
+        "time": "20:50 - 22:30"
+      },
+      {
+        "day": "Friday",
+        "time": "19:00 - 20:40"
+      }
+    ],
+    "teacher": "Ricardo Alves",
+    "email": "ricardo.alves@ufu.br"
+  },
+  {
+    "code": "FAMAT39505",
+    "course": "Estatística",
+    "prerequisite": "FAMAT31022-AL",
+    "class": "S",
+    "color": "#A133FF",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "time": "19:00 - 20:40"
+      },
+      {
+        "day": "Friday",
+        "time": "20:50 - 22:30"
+      }
+    ],
+    "teacher": "Fernanda Rocha",
+    "email": "fernanda.rocha@ufu.br"
+  },
+  {
+    "code": "FACOM32501",
+    "course": "ACE - Popularização de Ciência e Tecnologia",
+    "prerequisite": "",
+    "class": "S",
+    "color": "#FFF3A1",
+    "schedules": [
+      {
+        "day": "Saturday",
+        "time": "14:00 - 15:40"
+      }
+    ],
+    "teacher": "Tiago Carvalho",
+    "email": "tiago.carvalho@ufu.br"
+  }
+]
