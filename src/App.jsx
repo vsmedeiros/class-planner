@@ -82,12 +82,12 @@ function App() {
           <thead>
             <tr>
               <th>HORÁRIO</th>
-              <th>SEGUNDA-FEIRA</th>
-              <th>TERÇA-FEIRA</th>
-              <th>QUARTA-FEIRA</th>
-              <th>QUINTA-FEIRA</th>
-              <th>SEXTA-FEIRA</th>
-              <th>SÁBADO</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+              <th>SATURDAY</th>
             </tr>
           </thead>
           <tbody>
@@ -166,6 +166,7 @@ function App() {
                   <th>COURSE</th>
                   <th>TEACHER</th>
                   <th>DAY/TIME</th>
+                  <th>PREREQUISITE</th>
                 </tr>
               </thead>
               <tbody>
@@ -182,6 +183,7 @@ function App() {
                           .map(({ day, time }) => `${day} - ${time}`)
                           .join(", ")}
                       </td>
+                      <td>{currentCourse.prerequisite}</td>
                     </tr>
                   );
                 })}
