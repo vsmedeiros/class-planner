@@ -95,5 +95,7 @@ select {
   &:focus {
     outline: none;
   }
-
+  @media screen and (max-width: 1500px) {
+    width: 7.5rem;
+  }
 }

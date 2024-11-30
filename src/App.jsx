@@ -184,7 +184,12 @@ function App() {
                   const [courseCode, classCode] = code.split("-");
                   const currentCourse = getClass(courseCode, classCode);
                   return (
-                    <tr key={code}>
+                    <tr
+                      key={code}
+                      style={{
+                        backgroundColor: currentCourse.color,
+                      }}
+                    >
                       <td>{code}</td>
                       <td>{currentCourse.course}</td>
                       <td>
