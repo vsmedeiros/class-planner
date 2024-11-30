@@ -74,6 +74,15 @@ function App() {
     return course;
   }
   const scheduleCodes = new Set(Object.values(schedule));
+  function handleDelete(course) {
+    const updatedSchedule = { ...schedule };
+    for (const key in schedule) {
+      if (schedule[key].includes(course)) {
+        delete updatedSchedule[key];
+      }
+    }
+    setSchedule(updatedSchedule);
+  }
   return (
     <>
       <h1>CLASS PLANNER</h1>
@@ -167,6 +176,7 @@ function App() {
                   <th>TEACHER</th>
                   <th>DAY/TIME</th>
                   <th>PREREQUISITE</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -177,13 +187,26 @@ function App() {
                     <tr key={code}>
                       <td>{code}</td>
                       <td>{currentCourse.course}</td>
-                      <td>{currentCourse.teacher}</td>
+                      <td>
+                        {currentCourse.teacher} - {currentCourse.email}
+                      </td>
                       <td>
                         {currentCourse.schedules
                           .map(({ day, time }) => `${day} - ${time}`)
                           .join(", ")}
                       </td>
-                      <td>{currentCourse.prerequisite}</td>
+                      <td>{currentCourse.prerequisite || "-"} </td>
+                      <td>
+                        <button
+                          onClick={() =>
+                            handleDelete(
+                              `${currentCourse.code}-${currentCourse.class}`
+                            )
+                          }
+                        >
+                          Remover
+                        </button>
+                      </td>
                     </tr>
                   );
                 })}
