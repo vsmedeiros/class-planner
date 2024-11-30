@@ -31,8 +31,8 @@ function App() {
       selectedClass.schedules.forEach(({ day, time }) => {
         const classWithConflict = getScheduleValue(`${day}-${time}`);
         if (classWithConflict) {
-          for (const key of Object.keys(schedule)) {
-            if (schedule[key] === classWithConflict) {
+          for (const key in updatedSchedule) {
+            if (updatedSchedule[key] === classWithConflict) {
               delete updatedSchedule[key];
             }
           }
