@@ -2,7 +2,7 @@
   {
     "code": "FACIC39102",
     "course": "Contabilidade e Análise de Demonstrativos Financeiros",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#ff5733",
     "schedules": [
@@ -17,7 +17,7 @@
   {
     "code": "FACOM32104",
     "course": "Introdução aos Sistemas de Informação",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#33ff57",
     "schedules": [
@@ -32,7 +32,7 @@
   {
     "code": "FACOM32104",
     "course": "Introdução aos Sistemas de Informação",
-    "prerequisite": "EX",
+    "prerequisite": "",
     "class": "EX",
     "color": "#5733ff",
     "schedules": [
@@ -47,7 +47,7 @@
   {
     "code": "FACOM32101",
     "course": "Informática e Sociedade",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#ff33a1",
     "schedules": [
@@ -62,7 +62,7 @@
   {
     "code": "FACOM32101",
     "course": "Informática e Sociedade",
-    "prerequisite": "EX",
+    "prerequisite": "",
     "class": "EX",
     "color": "#33a1ff",
     "schedules": [
@@ -77,7 +77,7 @@
   {
     "code": "FACOM32102",
     "course": "Algoritmos e Programação I",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#a1ff33",
     "schedules": [
@@ -96,7 +96,7 @@
   {
     "code": "FACOM32102",
     "course": "Algoritmos e Programação I",
-    "prerequisite": "EXA",
+    "prerequisite": "",
     "class": "EXA",
     "color": "#ff33a1",
     "schedules": [
@@ -115,7 +115,7 @@
   {
     "code": "FACOM32102",
     "course": "Algoritmos e Programação I",
-    "prerequisite": "EXB",
+    "prerequisite": "",
     "class": "EXB",
     "color": "#a133ff",
     "schedules": [
@@ -134,7 +134,7 @@
   {
     "code": "FACOM32105",
     "course": "Lógica para Computação",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#ff5733",
     "schedules": [
@@ -153,7 +153,7 @@
   {
     "code": "FACOM32105",
     "course": "Lógica para Computação",
-    "prerequisite": "EX",
+    "prerequisite": "",
     "class": "EX",
     "color": "#33ff57",
     "schedules": [
@@ -172,7 +172,7 @@
   {
     "code": "FAGEN31102",
     "course": "Fundamentos de Marketing",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#5733ff",
     "schedules": [
@@ -229,7 +229,7 @@
   {
     "code": "FAMAT39214",
     "course": "Cálculo I",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#a1ff33",
     "schedules": [
@@ -252,7 +252,7 @@
   {
     "code": "FAGEN39531",
     "course": "Gestão Empresarial",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#ff33a1",
     "schedules": [
@@ -419,7 +419,7 @@
   {
     "code": "FACOM32301",
     "course": "ACE - Informática e Sociedade",
-    "prerequisite": "S",
+    "prerequisite": "",
     "class": "S",
     "color": "#a133ff",
     "schedules": [
@@ -548,7 +548,7 @@
   {
     "code": "FAMAT32401",
     "course": "Matemática para Ciência da Computação",
-    "prerequisite": "-",
+    "prerequisite": "",
     "class": "S",
     "color": "#a133ff",
     "schedules": [
@@ -681,7 +681,7 @@
   {
     "code": "FACOM32501",
     "course": "ACE - Popularização de Ciência e Tecnologia",
-    "prerequisite": "-",
+    "prerequisite": "",
     "class": "S",
     "color": "#a133ff",
     "schedules": [
